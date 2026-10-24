@@ -36,6 +36,14 @@ layout/
     └── activity_call_second.xml         # Layout of the second activity
 ```
 
+## How It Works
+
+1. `ImplicitExplicit` loads `activity_implicit_explicit.xml` and finds the two buttons (`R.id.explicit`, `R.id.implicit`).
+2. Tapping **Explicit** starts `CallSecondActivity`, which displays the toast *"We are moved to second activity"*.
+3. Tapping **Implicit** fires an `ACTION_VIEW` intent with a Google Maps URL; Android launches whichever app can open it.
+
+
+
 ## Preview
 
 
@@ -53,12 +61,6 @@ layout/
 
 ---
 
-
-## How It Works
-
-1. `ImplicitExplicit` loads `activity_implicit_explicit.xml` and finds the two buttons (`R.id.explicit`, `R.id.implicit`).
-2. Tapping **Explicit** starts `CallSecondActivity`, which displays the toast *"We are moved to second activity"*.
-3. Tapping **Implicit** fires an `ACTION_VIEW` intent with a Google Maps URL; Android launches whichever app can open it.
 
 ## Requirements
 

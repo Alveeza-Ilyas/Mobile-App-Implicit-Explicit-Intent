@@ -29,7 +29,7 @@ The main screen has two buttons:
 
 ```
 java/
-├── ImplicitExplicit.java      # Main screen with the two buttons
+    ├── ImplicitExplicit.java      # Main screen with the two buttons
     └── CallSecondActivity.java    # Target activity of the explicit intent
 layout/
     ├── activity_implicit_explicit.xml   # Layout with `explicit` and `implicit` buttons

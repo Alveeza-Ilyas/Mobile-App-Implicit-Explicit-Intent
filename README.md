@@ -36,6 +36,24 @@ layout/
     └── activity_call_second.xml         # Layout of the second activity
 ```
 
+## Preview
+
+
+<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/67721315-8188-4195-b4b7-dc6340d5a473" />
+
+## After Clicking on Explicit Intent Button:
+
+<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/1bf7acbd-f4b6-413a-a318-fc07caedacc5" />
+
+## After Clicking on Implicit Intent Button:
+
+<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/5718ba98-df0a-4dbc-81ff-3d17f559a607" />
+
+
+
+---
+
+
 ## How It Works
 
 1. `ImplicitExplicit` loads `activity_implicit_explicit.xml` and finds the two buttons (`R.id.explicit`, `R.id.implicit`).
